@@ -16,10 +16,17 @@
 #     print(result)
 
 # Q3: 计算 input的总和
-if __name__ == '__main__':
-    input = [1, 2, 3]
-    result = 0
-    length = len(input)
-    for i in input:
-        result = result + i
-    print(result)
+# if __name__ == '__main__':
+#     input = [1, 2, 3]
+#     result = 0
+#     length = len(input)
+#     for i in input:
+#         result = result + i
+#     print(result)
+
+# Q4:把input1中input2的单词过滤掉
+
+if __name__ == "__name__":
+    input1 = "dandan is intelli"
+    input2 = ["a", "b", "c"]
+    result = ""
