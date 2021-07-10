@@ -19,4 +19,7 @@
 if __name__ == '__main__':
     input = [1, 2, 3]
     result = 0
+    length = len(input)
+    for i in input:
+        result = result + i
     print(result)
