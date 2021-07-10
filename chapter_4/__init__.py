@@ -26,7 +26,17 @@
 
 # Q4:把input1中input2的单词过滤掉
 
-if __name__ == "__name__":
-    input1 = "dandan is intelli"
-    input2 = ["a", "b", "c"]
-    result = ""
+if __name__ == '__main__':
+    input1 = "I have a student"
+    input2 = "aeiou"
+    result = ''
+    input1list = []
+    for i in input1:
+        input1list.append(i)
+    for i in input1list:
+        for j in input2:
+            if i == j:
+                 input1list.remove(i)
+    for i in input1list:
+        result = result + i
+    print(result)
